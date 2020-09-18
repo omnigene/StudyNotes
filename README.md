@@ -1,2 +1,2 @@
 # StudyNotes
-- git
+- Git & GitHub
