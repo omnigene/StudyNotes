@@ -1,2 +1,3 @@
 # StudyNotes
-- Git & GitHub
+- Git
+- Python
