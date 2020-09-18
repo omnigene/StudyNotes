@@ -1,0 +1,4 @@
+- 查看已安装的包
+  ```pip list```
+- 解决pip无法升级问题
+```python -m pip install -U --force-reinstall pip```
