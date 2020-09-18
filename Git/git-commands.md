@@ -1,1 +1,1 @@
-
+- 清除缓存在git中的用户名和密码：`git credential-manager uninstall`
