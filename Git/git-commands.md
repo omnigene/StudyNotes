@@ -1,15 +1,11 @@
-- 清除缓存在git中的用户名和密码：`git credential-manager uninstall`
+## Git配置
 
-- 添加远程仓库：
+
+- 查看配置列表：
 
   ```bash
-  # <name>用于设置远程仓库在本地的名称，默认为origin
-  # <url>用于设置需连接的github远程仓库地址，例：https://github.com/omnigene/StudyNotes
-  git remote add <name> <url>
-  ````
-
-
-- 查看配置列表：`git config --list`
+  git config --list
+  ```
 
 - 设置默认文本编辑器：
 
@@ -22,5 +18,25 @@
   git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
   ```
   
+- 设置密码管理工具（Git Credential Manager for Windows）：
 
-- 设置密码管理工具（Git Credential Manager for Windows）：`git config --global credential.helper manager`
+  ```bash
+  # 配置密码管理工具
+  git config --global credential.helper manager
+  # 卸载密码管理工具
+  git crendential-manager uninstall
+  ```
+
+
+
+## Git基本操作
+
+- 添加远程仓库：
+
+  ```bash
+  # <name>用于设置远程仓库在本地的名称，默认为origin
+  # <url>用于设置需连接的github远程仓库地址，例：https://github.com/omnigene/StudyNotes
+  git remote add <name> <url>
+  ```
+
+  
