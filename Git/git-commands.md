@@ -39,11 +39,11 @@
 
   - 在不解除密码管理工具的情况下切换Git用户，可通过Windows凭据管理器（搜索“管理网络密码“）删除GitHub凭据
 
-  ![Windows凭据管理器](https://github.com/omnigene/StudyNotes/blob/master/Git/imgs/Windows凭据管理器.png)
+  ![Windows凭据管理器](https://github.com/omnigene/StudyNotes/blob/master/Git/imgs/Windows凭据管理器.png?raw=true)
 
   - 删除凭据后，首次进行push等操作时，会弹出GitHub登录页面，一次登录后会储存新的凭据，无需再每次输入账号密码
 
-  ![GitHub-Login](https://github.com/omnigene/StudyNotes/blob/master/Git/imgs/GitHub-Login.png)
+  ![GitHub-Login](https://github.com/omnigene/StudyNotes/blob/master/Git/imgs/GitHub-Login.png?raw=true)
 
 
 
@@ -63,4 +63,4 @@
   git remote add <name> <url>
   ```
 
-  
+
