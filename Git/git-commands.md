@@ -16,9 +16,11 @@
   ```bash
   # <name>表示文本编辑器的名称，通常需要加引号
   git config --global core.editor <name>
-  # 将默认文本编辑器设置为Visual Studio Code
+  # 将Visual Studio Code设置为默认文本编辑器
   git config --global core.editor "code --wait"
+  # 将Notepad++设置为默认文本编辑器
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
   ```
-
+  
   
 
