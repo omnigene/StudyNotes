@@ -1,12 +1,22 @@
 ## Git配置
 
 
-- 查看配置列表：
+- 查看配置：
 
   ```bash
+  # 查看全部配置列表
   git config --list
+  # 查看某项配置，<name>表示配置名称
+  git config <name>
   ```
 
+- 在配置文件中删除某项配置：
+
+  ```bash
+  # <name>表示某项配置的名称
+  git config --global --unset <name>
+  ```
+  
 - 设置默认文本编辑器：
 
   ```bash
@@ -21,13 +31,11 @@
 - 设置密码管理工具（Git Credential Manager for Windows）：
 
   ```bash
-  # 配置密码管理工具
+  # 配置密码管理工具，初次使用无需配置，默认调用Credential Manager管理账号密码
   git config --global credential.helper manager
-  # 卸载密码管理工具
-  git crendential-manager uninstall
+  # 清除密码管理工具中储存的凭证，清除后再进行push等操作时会要求输入GitHub账号密码
+  git credential-manager uninstall
   ```
-
-
 
 ## Git基本操作
 
