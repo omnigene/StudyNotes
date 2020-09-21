@@ -33,11 +33,27 @@
   ```bash
   # 配置密码管理工具，初次使用无需配置，默认调用Credential Manager管理账号密码
   git config --global credential.helper manager
-  # 清除密码管理工具中储存的凭证，清除后再进行push等操作时会要求输入GitHub账号密码
+  # 解除使用密码管理工具，解除后每次进行push等操作时都会要求输入GitHub账号密码
   git credential-manager uninstall
   ```
 
+  - 在不解除密码管理工具的情况下切换Git用户，可通过Windows凭据管理器（搜索“管理网络密码“）删除GitHub凭据
+
+  ![Windows凭据管理器](E:\Document\StudyNotes\Git\imgs\Windows凭据管理器.png)
+
+  - 删除凭据后，首次进行push等操作时，会弹出GitHub登录页面，一次登录后会储存新的凭据，无需再每次输入账号密码
+
+  ![GitHub-Login](E:\Document\StudyNotes\Git\imgs\GitHub-Login.png)
+
+
+
 ## Git基本操作
+
+- 一次添加所有修改：
+
+  ```bash
+  git add .
+  ```
 
 - 添加远程仓库：
 
