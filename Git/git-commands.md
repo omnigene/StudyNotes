@@ -19,7 +19,7 @@
   # 将Visual Studio Code设置为默认文本编辑器
   git config --global core.editor "code --wait"
   # 将Notepad++设置为默认文本编辑器
-git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+  git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
   ```
   
   
