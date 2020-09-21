@@ -22,5 +22,5 @@
   git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
   ```
   
-  
 
+- 设置密码管理工具（Git Credential Manager for Windows）：`git config --global credential.helper manager`
