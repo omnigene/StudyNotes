@@ -62,5 +62,8 @@
   # <url>用于设置需连接的github远程仓库地址，例：https://github.com/omnigene/StudyNotes
   git remote add <name> <url>
   ```
-
+- 查看远程仓库地址：
+  ```bash
+  git remote -v
+  ```
   
