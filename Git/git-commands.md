@@ -55,12 +55,12 @@
   git add .
   ```
 
-- 添加远程仓库：
+- 添加及查看远程仓库：
 
   ```bash
   # <name>用于设置远程仓库在本地的名称，默认为origin
   # <url>用于设置需连接的github远程仓库地址，例：https://github.com/omnigene/StudyNotes
   git remote add <name> <url>
+  # 查看远程仓库地址
+  git remote -v
   ```
-
-
